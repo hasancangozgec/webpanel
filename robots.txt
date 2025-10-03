@@ -1,0 +1,39 @@
+# robots.txt - KO Server Files
+# Konum: C:\xampp\htdocs\koserver\robots.txt
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /logs/
+Disallow: /server_files/
+Disallow: /config.php
+Disallow: /*.log$
+
+# Sitemap
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 10
+
+# Özel bot kuralları
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /uploads/
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+# Kötü botları engelle
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
